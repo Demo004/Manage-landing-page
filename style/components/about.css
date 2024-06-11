@@ -1,0 +1,137 @@
+.about {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.about__title {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.about__wrapper1 {
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+}
+
+.about__gen-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.about__description,
+.about__sub-description {
+  max-width: 60ch;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  font-size: var(--size-xs);
+}
+
+.about__sub-description {
+  font-size: var(--size-xs);
+}
+
+.about__subtitle {
+  margin-bottom: 0.5rem;
+}
+
+.about__subtitle {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.about__subtitle {
+  font-size: var(--size-sm);
+  background-color: var(--Light-Red);
+  color: var(--dark);
+  border-radius: 120px;
+  margin-left: 3rem;
+}
+
+.about__num {
+  background-color: var(--Bright-Red);
+  width: 3rem;
+  height: 1.6rem;
+  color: var(--Very-Light-Gray);
+  border-radius: 120px;
+  display: grid;
+  place-content: center;
+}
+
+.about__back {
+  position: absolute;
+  z-index: -1;
+  transform: rotate(90deg);
+  left: -250px;
+}
+
+/* xs */
+/* @media (min-width: 475px) {} */
+
+/* sm */
+/* @media (min-width: 640px) {} */
+
+/* md */
+/* @media (min-width: 768px) {} */
+
+/* lg */
+@media (min-width: 1024px) {
+  .about {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-left: 3rem;
+    padding-right: 4rem;
+  }
+
+  .about__title {
+    font-size: var(--size-4xl);
+    max-width: 25ch;
+  }
+
+  .about__gen-wrapper {
+    gap: 3rem;
+  }
+
+  .about__description,
+  .about__sub-description {
+    font-size: var(--size-base);
+  }
+
+  .about__sub-description {
+    margin-top: 1rem;
+    margin-left: 5rem;
+  }
+
+  .about__subtitle {
+    font-size: var(--size-base);
+
+    background-color: transparent;
+  }
+
+  .about__subtitle {
+    gap: 2rem;
+  }
+
+  .about__back {
+    position: absolute;
+    z-index: -1;
+    transform: rotate(0deg);
+    left: -450px;
+    bottom: -490px;
+  }
+  
+}
+
+/* xl */
+/* @media (min-width 1280px) {} */
+
+/* 2xl */
+/* @media (min-width: 1536px) {} */

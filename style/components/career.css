@@ -1,0 +1,68 @@
+.careers {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.slider {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.slides {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+  margin-top: 2rem;
+
+  min-width: 100%;
+  box-sizing: border-box;
+}
+
+.slides img {
+  width: 80px;
+  height: auto;
+  margin: auto;
+  height: auto;
+  display: block;
+}
+
+.name {
+  margin-top: 1rem;
+}
+
+.caption {
+  color: var(--clr-dark);
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: var(--size-sm);
+  color: var(--Dark-Grayish-Blue);
+  max-width: 60ch;
+}
+
+.dots {
+  text-align: center;
+  padding: 10px 0;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 5px;
+  background-color: var(--Light-Red);
+  border-radius: 50%;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.dot.active {
+  background-color: var(--Bright-Red);
+}

@@ -43,6 +43,7 @@
   .container {
     max-width: 475px;
   }
+  
 }
 
 /* sm */
@@ -94,4 +95,5 @@
   .contain {
     max-width: 1536px;
   }
+}
 }
