@@ -149,7 +149,7 @@
 
   .hero__title {
     font-size: var(--size-6xl);
-    max-width: 13ch;
+    max-width: 15ch;
   }
 
   .hero__description {

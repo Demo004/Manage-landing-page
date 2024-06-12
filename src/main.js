@@ -70,7 +70,7 @@ function prevSlide() {
     showSlide(currentSlideIndex - 1);
 }
 
-// Auto slide every 3 seconds
+// Auto slide every 5 seconds
 setInterval(nextSlide, 5000);
 
 // Initialize the first slide
