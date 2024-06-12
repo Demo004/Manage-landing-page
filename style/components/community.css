@@ -1,0 +1,127 @@
+.community {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-top: 2rem;
+  align-items: center;
+  background-color: var(--Bright-Red);
+  min-height: 14rem;
+  width: 100%;
+  text-align: center;
+  gap: 2rem;
+  overflow-y: clip;
+  overflow-x: clip;
+}
+
+.community__title {
+  font-size: var(--size-3xl);
+  color: var(--Very-Light-Gray);
+  z-index: 10;
+}
+
+.community__btn {
+  background-color: var(--Very-Light-Gray);
+  padding: .4688rem 1.2rem;
+  border-radius: 1.875rem;
+  font-size: var(--size-sm);
+  font-weight: 700;
+  color: var(--Bright-Red);
+  transition: 0.3s ease-in-out;
+  z-index: 10;
+}
+
+.community__btn:hover {
+  transform: translateY(-0.125rem);
+  box-shadow: 0 .3125rem .9375rem -0.0625rem rgb(43, 42, 42);
+}
+
+.community-img-left {
+  opacity: 0.2;
+  width: 15.625rem;
+  bottom: -8.75rem;
+  left: -7.5rem;
+  height: auto;
+  position: absolute;
+  z-index: 1;
+  transform: rotate(10deg);
+}
+
+.community-img-right {
+  opacity: 0.2;
+  width: 15.625rem;
+  right: -6.25rem;
+  top: -7.5rem;
+  height: auto;
+  position: absolute;
+  z-index: 1;
+  transform: rotate(10deg);
+}
+
+/* xs */
+/* @media (min-width: 29.6875rem) {} */
+
+/* sm */
+/* @media (min-width: 40rem) {} */
+
+/* md */
+/* @media (min-width: 48rem) {} */
+
+/* lg */
+@media (min-width: 64rem) {
+  .community {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    align-items: center;
+  }
+
+  .community__title {
+    font-size: var(--size-4xl);
+    max-width: 20ch;
+    text-align: left;
+    font-weight: 500;
+  }
+
+  .community__btn {
+    background-color: var(--Very-Light-Gray);
+    padding: .875rem 2.1875rem;
+    border-radius: 30px;
+    font-size: var(--size-sm);
+    font-weight: 700;
+    color: var(--Bright-Red);
+    transition: 0.3s ease-in-out;
+    z-index: 10;
+  }
+
+  .community-img-left {
+    opacity: 0.2;
+    bottom: -15.625rem;
+    width: 31.25rem;
+    left: -6.25rem;
+    height: auto;
+    position: absolute;
+    z-index: 1;
+    transform: rotate(10deg);
+  }
+
+  .community-img-right {
+    opacity: 0.2;
+    width: 31.25rem;
+    right: -6.25rem;
+    top: -15.625rem;
+    height: auto;
+    position: absolute;
+    z-index: 1;
+    transform: rotate(10deg);
+  }
+}
+
+/* xl */
+/* @media (min-width 80rem) {} */
+
+/* 2xl */
+/* @media (min-width: 96rem) {} */

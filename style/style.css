@@ -87,6 +87,6 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: var(--clr-rose);
+  background-color: var(--Bright-Red);
   outline: 1px solid var(--clr-rose);
 }

@@ -9,11 +9,30 @@ import "../style/components/header.css";
 import "../style/components/hero.css";
 import "../style/components/about.css";
 import "../style/components/career.css";
+import "../style/components/community.css";
+import "../style/components/footer.css";
 
 // utility
 import "../style/utility.css";
 
 
+
+// ### scroll behavior
+document.addEventListener("DOMContentLoaded", function () {
+    document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+      anchor.addEventListener("click", function (e) {
+        e.preventDefault();
+  
+        const target = document.querySelector(this.getAttribute("href"));
+  
+        if (target) {
+          target.scrollIntoView({
+            behavior: "smooth",
+          });
+        }
+      });
+    });
+  });
 
 // slider
 let currentSlideIndex = 0;
@@ -52,7 +71,7 @@ function prevSlide() {
 }
 
 // Auto slide every 3 seconds
-setInterval(nextSlide, 3000);
+setInterval(nextSlide, 5000);
 
 // Initialize the first slide
 showSlide(currentSlideIndex);

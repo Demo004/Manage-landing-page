@@ -21,6 +21,7 @@
     />
   </head>
   <body>
+    <!-- header -->
     <header class="header container">
       <!-- logo -->
       <img src="/logo.svg" alt="manage." class="header__logo" />
@@ -53,8 +54,10 @@
       </button>
     </header>
 
+    <!-- contents -->
     <main>
-      <section class="hero contain">
+      <!-- hero -->
+      <section class="hero contain" id="pricing">
         <div class="hero__wrapper">
           <!-- hero-back-img -->
           <img src="/bg-tablet-pattern.svg" alt="" class="hero__back" />
@@ -70,7 +73,8 @@
         <div class="hero__wrapper2">
           <!-- hero-content -->
           <h1 class="hero__title">
-            Bring everyone together to build better products.
+            Bring everyone together to
+            <span class="util__design">build</span> better products.
           </h1>
           <p class="hero__description">
             Manage makes it simple for software teams to plan day-to-day tasks
@@ -86,10 +90,13 @@
         </div>
       </section>
 
-      <section class="about section">
+      <!-- about -->
+      <section class="about section" id="about">
         <!-- about-content 1 -->
         <div class="about__wrapper1">
-          <h2 class="about__title">What's different about manage?</h2>
+          <h2 class="about__title">
+            <span class="util__design">What's</span> different about manage?
+          </h2>
           <p class="about__description">
             Manage provides all the functionality your team needs. Without the
             complexity. Our software is tailor-made for modern digital
@@ -102,7 +109,7 @@
           <!-- 1 -->
           <div class="about__wrapper2">
             <h4 class="about__subtitle">
-              <span class="about__num">01</span>Track company-wide progress
+              <span class="about__num">01</span>Track company-wide progress.
             </h4>
             <p class="about__sub-description">
               See how your day-to-day tasks fit into the wider vision. Go from
@@ -114,42 +121,45 @@
           <!-- 2 -->
           <div class="about__wrapper2">
             <h4 class="about__subtitle">
-              <span class="about__num">02</span>Track company-wide progress
+              <span class="about__num">02</span>Advanced built-in reports
             </h4>
             <p class="about__sub-description">
-              See how your day-to-day tasks fit into the wider vision. Go from
-              tracking progress at the milestone level all the way done to the
-              smallest of details. Never lose sight of the bigger picture again.
+              Set internal delivery estimates and track progress toward company
+              goals. Our customisable dashboard helps you build out the reports
+              you need to keep key stakeholders informed.
             </p>
           </div>
 
           <!-- 3 -->
           <div class="about__wrapper2">
             <h4 class="about__subtitle">
-              <span class="about__num">03</span>Track company-wide progress
+              <span class="about__num">03</span>Everything you need in one place
             </h4>
             <p class="about__sub-description">
-              See how your day-to-day tasks fit into the wider vision. Go from
-              tracking progress at the milestone level all the way done to the
-              smallest of details. Never lose sight of the bigger picture again.
+              Stop jumping from one service to another to communicate, store
+              files, track tasks and share documents. Manage offers an
+              all-in-one team productivity solution.
             </p>
           </div>
         </div>
         <img
-          src="./public/bg-tablet-pattern.svg"
+          src="/bg-tablet-pattern.svg"
           alt="bg-tablet-pattern"
           class="about__back"
         />
       </section>
 
-      <section class="careers contain">
-        <h2 class="career__title">What they've said</h2>
+      <!-- careers -->
+      <section class="careers contain" id="careers">
+        <h2 class="career__title">
+          <span class="util__design">What</span> they've said
+        </h2>
 
         <!-- slider -->
         <div class="slider">
           <div class="slides">
             <div class="slide">
-              <img src="/public/avatar-ali.png" alt="Image 1" />
+              <img src="/avatar-ali.png" alt="Image 1" />
               <h4 class="name">Ali Bravo</h4>
               <div class="caption">
                 Manage has supercharged our team’s workflow. The ability to
@@ -158,7 +168,7 @@
               </div>
             </div>
             <div class="slide">
-              <img src="/public/avatar-anisha.png" alt="Image 2" />
+              <img src="/avatar-anisha.png" alt="Image 2" />
               <h4 class="name">Anisha Li</h4>
               <div class="caption">
                 We have been able to cancel so many other subscriptions since
@@ -167,7 +177,7 @@
               </div>
             </div>
             <div class="slide">
-              <img src="/public/avatar-richard.png" alt="Image 3" />
+              <img src="/avatar-richard.png" alt="Image 3" />
               <h4 class="name">Richard Watts</h4>
               <div class="caption">
                 Manage allows us to provide structure and process. It keeps us
@@ -176,7 +186,7 @@
               </div>
             </div>
             <div class="slide">
-              <img src="/public/avatar-shanai.png" alt="Image 4" />
+              <img src="/avatar-shanai.png" alt="Image 4" />
               <h4 class="name">Shanai Gough</h4>
               <div class="caption">
                 Their software allows us to track, manage and collaborate on our
@@ -192,10 +202,90 @@
           <span class="dot" onclick="currentSlide(2)"></span>
           <span class="dot" onclick="currentSlide(3)"></span>
         </div>
+
+        <button class="careers__btn">Get Started</button>
       </section>
 
+      <!-- community -->
+      <section class="community section" id="community">
+        <h3 class="community__title">Simple how your team works today.</h3>
+        <button class="community__btn">Get started</button>
+        <img
+          src="/bg-tablet-pattern.svg"
+          alt="bg-tablet-pattern"
+          class="community-img-left"
+        />
+        <img
+          src="/bg-tablet-pattern.svg"
+          alt="bg-tablet-pattern"
+          class="community-img-right"
+        />
+      </section>
       
     </main>
+
+    <!-- footer -->
+    <secton class="footer">
+      <div class="footer__wrapper">
+        <input
+          type="text"
+          placeholder="Updates  in your inbox..."
+          class="footer__input"
+        />
+        <input type="button" value="Go" class="footer__btn" />
+      </div>
+
+      <div class="footer__wrapper2">
+        <div class="footer__wrap1">
+          <ul class="footer__menu">
+            <li class="footer__links"><a href="#pricing">Home</a></li>
+            <li class="footer__links"><a href="#product">Pricing</a></li>
+            <li class="footer__links"><a href="#about">Products</a></li>
+            <li class="footer__links"><a href="#careers">About us</a></li>
+          </ul>
+        </div>
+        <div class="footer__wrap1">
+          <ul class="footer__menu">
+            <li class="footer__links"><a href="#pricing">Careers</a></li>
+            <li class="footer__links"><a href="#product">Community</a></li>
+            <li class="footer__links"><a href="#about">Privacy Policy</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer__wrapper3">
+        <img src="/footer.svg" alt="manage" class="footer__logo" />
+
+        <div class="footer__link">
+          <img
+            src="/icon-facebook.svg"
+            alt="reach us on facebook"
+            class="footer__facebook"
+          />
+          <img
+            src="/icon-youtube.svg"
+            alt="reach us on youtube"
+            class="footer__youtube"
+          />
+          <img
+            src="/icon-twitter.svg"
+            alt="reach us on twitter"
+            class="footer__twitter"
+          />
+          <img
+            src="/icon-pinterest.svg"
+            alt="reach us on pinterest"
+            class="footer__pinterest"
+          />
+          <img
+            src="/icon-instagram.svg"
+            alt="reach us on instagram"
+            class="footer__instagram"
+          />
+        </div>
+      </div>
+    </secton>
+    <!-- end contents -->
 
     <script type="module" src="./src/main.js"></script>
   </body>
