@@ -30,7 +30,7 @@
   max-width: 60ch;
   padding-left: 3rem;
   padding-right: 3rem;
-  font-size: var(--size-sm);
+  font-size: var(--size-xs);
 }
 
 .about__sub-description {
