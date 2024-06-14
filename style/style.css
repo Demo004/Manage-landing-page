@@ -32,6 +32,10 @@
   margin: 0;
   line-height: calc(1em + 0.5rem);
 }
+/* 
+* * * * * * {
+  outline: 1px solid red;
+} */
 
 html {
   scroll-behavior: smooth;
@@ -88,5 +92,6 @@ body::-webkit-scrollbar-track {
 
 body::-webkit-scrollbar-thumb {
   background-color: var(--Bright-Red);
+  border-radius: 20px;
   outline: 1px solid var(--clr-rose);
 }

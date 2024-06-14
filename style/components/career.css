@@ -10,7 +10,7 @@
 .slider {
   position: relative;
   width: 100%;
-  max-width: 600px;
+  max-width: 37.5rem;
   margin: auto;
   overflow: hidden;
 }
@@ -28,7 +28,7 @@
 }
 
 .slides img {
-  width: 80px;
+  width: 5rem;
   height: auto;
   margin: auto;
   height: auto;
@@ -51,13 +51,13 @@
 
 .dots {
   text-align: center;
-  padding: 10px 0;
+  padding: .625rem 0;
 }
 
 .dot {
-  height: 15px;
-  width: 15px;
-  margin: 0 5px;
+  height: .9375rem;
+  width: .9375rem;
+  margin: 0 .3125rem;
   background-color: var(--Light-Red);
   border-radius: 50%;
   display: inline-block;
@@ -71,8 +71,7 @@
 .careers__btn {
   margin-top: 2rem;
   background-color: var(--Bright-Red);
-  padding: 7.5px 1.2rem;
-
+  padding: .4688rem 1.2rem;
   font-size: var(--size-sm);
   font-weight: 700;
   border-radius: 1.875rem;
@@ -81,31 +80,31 @@
 }
 
 .careers__btn:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 0.3125rem 0.9375rem -0.0625rem rgb(242, 95, 58);
+  transform: translateY(-0.125rem);
+  box-shadow: 0 .3125rem .9375rem -0.0625rem rgb(242, 95, 58);
 }
 /* xs */
-/* @media (min-width: 475px) {} */
+/* @media (min-width: 29.6875rem) {} */
 
 /* sm */
-@media (min-width: 640px) {
+@media (min-width: 40rem) {
 }
 
 /* md */
-/* @media (min-width: 768px) {} */
+/* @media (min-width: 48rem) {} */
 
 /* lg */
-@media (min-width: 1024px) {
+@media (min-width: 64rem) {
   .slider {
     position: relative;
     width: 100%;
-    max-width: 37.5rem;
+    max-width: 600px;
     margin: auto;
     overflow: hidden;
   }
 
   .slides img {
-    width: 6.25rem;
+    width: 100px;
     height: auto;
     margin: auto;
     height: auto;
@@ -114,8 +113,8 @@
 
   .caption {
     font-size: var(--size-base);
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
+    margin-top: 24px;
+    margin-bottom: 24px;
   }
 
   .career__title {
@@ -124,12 +123,12 @@
 
   .careers__btn {
     font-size: var(--size-xl);
-    padding: 14px 35px;
+    padding: .875rem 2.1875rem;
   }
 }
 
 /* xl */
-/* @media (min-width 1280px) {} */
+/* @media (min-width 80rem) {} */
 
 /* 2xl */
-/* @media (min-width: 1536px) {} */
+/* @media (min-width: 96rem) {} */
