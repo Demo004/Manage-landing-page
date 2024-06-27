@@ -159,6 +159,10 @@
 
   .hero__btn {
     padding: 0.875rem 2.1875rem;
+    padding: .875rem 2.1875rem;
+    border-radius: 30px;
+    font-size: var(--size-sm);
+    font-weight: 700;
   }
 }
 

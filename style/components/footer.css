@@ -21,7 +21,7 @@
   width: 15rem;
   height: 40px;
   border-radius: 40px;
-  padding: 1.5rem;
+  padding: 1rem;
   border: none;
 }
 
@@ -37,7 +37,7 @@
 .footer__btn {
   border-radius: 30px;
   width: 65px;
-  height: 50px;
+  height: 40px;
   color: var(--Very-Light-Gray);
   background-color: var(--Bright-Red);
   font-weight: 400;
